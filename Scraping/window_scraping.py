@@ -1,3 +1,4 @@
+#Import the Library
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -5,6 +6,7 @@ import re
 import sqlite3
 import csv
 
+#Scraping Window's computer Review
 origin_url_window = 'https://review.kakaku.com/review/K0000800909/?Page='
 win_rates = []
 

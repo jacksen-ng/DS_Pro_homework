@@ -1,3 +1,4 @@
+#Import Library
 from bs4 import BeautifulSoup
 import requests
 import time
@@ -5,6 +6,7 @@ import re
 import sqlite3
 import csv
 
+#Scraping Macbook's Review
 macbook_texts = []
 rates = []
 origin_url = 'https://review.kakaku.com/review/newreview/CategoryCD=0029/PageNo='
